@@ -1,13 +1,66 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #dbe4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App {
+  width: 50rem;
+}
+
+.Title {
+  background-color: darkblue;
+  color: #fff;
+  padding: 1.6rem;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.Calculator {
+  background-color: #fff;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 6.4rem;
+}
+
+.InputSection {
+  width: 100%;
+  margin-bottom: 1.6rem;
+  padding: 0.8rem 1.2rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+input {
+  width: 100%;
+}
+
+.OutputSection {
+  text-align: center;
+}
+
+.output {
+  background-color: darkblue;
+  padding: 1.2rem;
+  border-radius: 6.4rem;
+  color: #fff;
+  margin-top: 1.2rem;
 }
